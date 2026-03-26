@@ -5,5 +5,10 @@ class Main{
 
 		car1.wyswietlInfo();
 		car2.wyswietlInfo();
+
+		KontoBankowe konto1 = new KontoBankowe(100);
+		konto1.wplac(20);
+		konto1.wyplac(30);
+		konto1.getSaldo();
 	}
-}
+} 
